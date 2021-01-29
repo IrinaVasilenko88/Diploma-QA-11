@@ -7,7 +7,7 @@ services:
       - '9999:9999'
 
   mysql_service:
-    image: library/mysql:8.0.18
+    image: mysql:8.0.18
     ports:
       - '3306:3306'
     volumes:
@@ -15,10 +15,11 @@ services:
     environment:
       - MYSQL_USER=app
       - MYSQL_PASSWORD=pass
-      - MUSQL_DATABASE=app
+      - MYSQL_DATABASE=app
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
 
   postgres_service:
-    image: library/postgres:12-alpine
+    image: postgres:12-alpine
     ports:
       - '5432:5432'
     volumes:
