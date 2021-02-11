@@ -35,7 +35,8 @@ public class CreditPage {
         continueButton.click();
 
     }
-    public void withoutFulfilling(){
+
+    public void withoutFulfilling() {
         continueButton.click();
     }
 
@@ -53,7 +54,7 @@ public class CreditPage {
 
     public void requiredField() {
         $(".input__sub").shouldHave(exactText("Поле обязательно для заполнения")).shouldBe(visible);
-        ;
+        
     }
 
     public void invalidDate() {
@@ -71,13 +72,16 @@ public class CreditPage {
     public void longName() {
         $(".input__sub").shouldHave(exactText("Значение поля не может содержать более 100 символов")).shouldBe(visible);
     }
-    public void invalidDataName(){
+
+    public void invalidDataName() {
         $(".input__sub").shouldHave(exactText("Значение поля может содержать только буквы и дефис")).shouldBe(visible);
     }
-    public void shortName(){
+
+    public void shortName() {
         $(".input__sub").shouldHave(exactText("Значение поля должно содержать больше одной буквы")).shouldBe(visible);
     }
-    public void invalidCvc(){
+
+    public void invalidCvc() {
         $(".input__sub").shouldHave(exactText("Значение поля должно содержать 3 цифры")).shouldBe(visible);
     }
 }

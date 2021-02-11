@@ -64,16 +64,20 @@ public class PaymentPage {
     public void invalidName() {
         $(".input__sub").shouldHave(exactText("Введите полное имя и фамилию")).shouldBe(visible);
     }
-    public void longName(){
+
+    public void longName() {
         $(".input__sub").shouldHave(exactText("Значение поля не может содержать более 100 символов")).shouldBe(visible);
     }
-    public void invalidDataName(){
+
+    public void invalidDataName() {
         $(".input__sub").shouldHave(exactText("Значение поля может содержать только буквы и дефис")).shouldBe(visible);
     }
-    public void shortName(){
+
+    public void shortName() {
         $(".input__sub").shouldHave(exactText("Значение поля должно содержать больше одной буквы")).shouldBe(visible);
     }
-    public void invalidCvc(){
+
+    public void invalidCvc() {
         $(".input__sub").shouldHave(exactText("Значение поля должно содержать 3 цифры")).shouldBe(visible);
     }
 }

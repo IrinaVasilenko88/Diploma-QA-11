@@ -35,9 +35,10 @@ public class DataGenerator {
 
     public static String getCurrentMonth() {
         LocalDate localDate = LocalDate.now();
-        return String.format("%02d",localDate.getMonthValue());
+        return String.format("%02d", localDate.getMonthValue());
     }
-//отнимает не месяц, а год, как сделать месяц?
+
+    //отнимает не месяц, а год, как сделать месяц?
     public static String getLastMonth() {
         LocalDate localDate = LocalDate.now();
         LocalDate lastMonth = localDate.minusMonths(1);
@@ -144,7 +145,8 @@ public class DataGenerator {
         FakeValuesService fakeValuesService = new FakeValuesService(new Locale("en"), new RandomService());
         return fakeValuesService.numerify("##");
     }
-    public static String getEmptyCvc(){
+
+    public static String getEmptyCvc() {
         return null;
     }
 }
