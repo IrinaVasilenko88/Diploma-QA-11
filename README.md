@@ -9,7 +9,7 @@
 
 - для PostgreSQL ввести в терминале команду
 
-``` java -jar artifacts/aqa-shop.jar -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar artifacts/aqa-shop.jar ```
+``` java -jar artifacts/aqa-shop.jar -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app ```
 
 5. Запуск тестов (Allure)
 -  для запуска на MySQL ввести команду
