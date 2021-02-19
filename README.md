@@ -12,11 +12,11 @@
 1. Запуск SUT
 - для MySQL ввести в терминале команду
 
-``` java -jar artifacts/aqa-shop.jar -Dspring.datasource.url=jdbc:mysql://localhost:3306/app ```
+``` java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app  -jar artifacts/aqa-shop.jar```
 
 - для PostgreSQL ввести в терминале команду
 
-``` java -jar artifacts/aqa-shop.jar -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app ```
+``` java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app  -jar artifacts/aqa-shop.jar ```
 
 5. Запуск тестов (Allure)
 -  для запуска на MySQL ввести команду
