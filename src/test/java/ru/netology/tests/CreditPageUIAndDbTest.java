@@ -23,8 +23,10 @@ public class CreditPageUIAndDbTest {
 
     @BeforeEach
     void setUp() {
-        open("http://localhost:8080");
         DbUtils.clearTables();
+        String url = System.getProperty("sut.url");
+        open(url);
+
     }
 
     @AfterAll
