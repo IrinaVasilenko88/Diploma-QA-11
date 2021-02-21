@@ -1,7 +1,7 @@
 # Документация
 [План тестирования](https://github.com/IrinaVasilenko88/Diploma-QA-11/blob/master/documentation/Plan.md)
 
-[Отчётные документы по итогам тестирования]()
+[Отчёт по итогам тестирования](https://github.com/IrinaVasilenko88/Diploma-QA-11/blob/master/documentation/%D0%9E%D1%82%D1%87%D1%91%D1%82%20%D0%BF%D0%BE%20%D0%B8%D1%82%D0%BE%D0%B3%D0%B0%D0%BC%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.md)
 
 [Отчётные документы по итогам автоматизации]()
 
