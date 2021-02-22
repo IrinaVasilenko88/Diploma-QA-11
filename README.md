@@ -3,7 +3,7 @@
 
 [Отчёт по итогам тестирования](https://github.com/IrinaVasilenko88/Diploma-QA-11/blob/master/documentation/Report.md)
 
-[Отчётные документы по итогам автоматизации]()
+[Отчёт по итогам автоматизации](https://github.com/IrinaVasilenko88/Diploma-QA-11/blob/master/documentation/Summary.md)
 
 # Инструкция подключения БД и запуска SUT
 1. Склонировать проект из репозитория командой ``` git clone ```
