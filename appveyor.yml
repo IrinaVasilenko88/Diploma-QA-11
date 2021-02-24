@@ -1,0 +1,21 @@
+image: Ubuntu
+
+stack: jdk 11
+clone_depth: 1
+pull_requests:
+  do_not_increment_build_number: true
+
+branches:
+  only:
+    - master
+
+build: off
+
+install:
+  - docker version &
+  - java -jar ./artifacts/aqa-shop.jar &
+  - chmod +x gradlew
+
+build_script:
+  - ./gradlew clean test -Ddb.url=jdbc:mysql://localhost:3306/app
+  - ./gradlew clean test -Ddb.url=jdbc:postgresql://localhost:5432/app
