@@ -1,3 +1,7 @@
+
+[![Build status](https://ci.appveyor.com/api/projects/status/b269cxgr93aol4jo/branch/master?svg=true)](https://ci.appveyor.com/project/IrinaVasilenko88/diploma-qa-11/branch/master)
+
+
 # Документация
 [План тестирования](https://github.com/IrinaVasilenko88/Diploma-QA-11/blob/master/documentation/Plan.md)
 
